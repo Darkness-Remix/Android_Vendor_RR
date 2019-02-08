@@ -198,6 +198,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.disable_rescue=true
 
+PRODUCT_PROPERTY_OVERRIDES := \
+    persist.sys.wfd.nohdcp=1 \
+    persist.debug.wfd.enable=1 \
+    persist.sys.wfd.virtual=0 \
+    persist.debug.wfd.enable=1 \
+    persist.sys.wfd.virtual=0
+
 # Extra tools in RR
 PRODUCT_PACKAGES += \
     7z \
