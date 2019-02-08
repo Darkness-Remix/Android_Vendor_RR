@@ -216,6 +216,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.themes_dir=/system/etc/gboard \
     ro.com.google.ime.theme_file=MD2.zip
 
+# Google Assistant
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.opa.eligible_device=true
+
 # Extra tools in RR
 PRODUCT_PACKAGES += \
     7z \
