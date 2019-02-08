@@ -190,6 +190,10 @@ PRODUCT_PACKAGES += \
     LineageRedAccent \
     LineageYellowAccent
 
+# Fix Google dialer
+PRODUCT_COPY_FILES += \
+    vendor/rr/prebuilt/common/etc/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+
 # Extra tools in RR
 PRODUCT_PACKAGES += \
     7z \
