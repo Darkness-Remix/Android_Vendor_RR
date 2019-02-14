@@ -80,8 +80,6 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    GoogleClock \
-    Wallpapers \
     ResurrectionStats
 
 # Copy all Lineage-specific init rc files
