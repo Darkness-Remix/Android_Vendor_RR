@@ -167,7 +167,8 @@ PRODUCT_PACKAGES += \
     TrebuchetQuickStep \
     Updater \
     WallpaperPicker \
-    WeatherProvider
+    WeatherProvider \
+    Calendar
 
 # Exchange support
 PRODUCT_PACKAGES += \
