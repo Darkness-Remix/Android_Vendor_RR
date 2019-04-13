@@ -79,6 +79,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ResurrectionStats
 
+# Cutout control overlays
+PRODUCT_PACKAGES += \
+    HideCutout \
+    StatusBarStock
+
 # Copy all Lineage-specific init rc files
 $(foreach f,$(wildcard vendor/rr/prebuilt/common/etc/init/*.rc),\
 	$(eval PRODUCT_COPY_FILES += $(f):system/etc/init/$(notdir $f)))
@@ -138,9 +143,10 @@ PRODUCT_PACKAGES += \
     Development \
     Profiles
 
-# OmniJaws
+# OmniPackages
 PRODUCT_PACKAGES += \
- OmniJaws
+ OmniJaws \
+ OmniStyle
 
 #Font package
 PRODUCT_PACKAGES += \
